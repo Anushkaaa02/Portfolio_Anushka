@@ -1,0 +1,156 @@
+/* General Styles */
+body {
+  
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    color: #333;
+
+    /* justify-content: center; */
+  }
+  
+  /* Header */
+  header {
+    background: #0078D7;
+    background-image:linear-gradient(rgb(31, 49, 54) ,rgb(56, 113, 117));
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+
+  }
+  
+  header h1 {
+    
+    margin: 0;
+    font-size: 2.5em;
+    text-align: center;
+  }
+  
+  header p {
+justify-content: center;
+align-items: center;
+
+
+
+    font-size: 1.2em;
+  }
+  
+  /* Navigation */
+  nav {
+    background: #333;
+    color: #fff;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    margin: 0 15px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.1em;
+    
+  }
+  
+  nav ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Sections */
+  .container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    padding: 20px 0;
+    width: 100%;
+    justify-content: center;
+   
+    
+  }
+  
+  section {
+    margin: 20px 0;
+    background-image:linear-gradient(rgb(233, 245, 249) ,rgb(209, 243, 246));
+    margin: 5px
+  }
+  section h1{
+    text-align: center;
+    color: #eef1f2;
+     background-image:linear-gradient(rgb(36, 63, 56) ,rgb(89, 128, 131));
+    }
+
+
+  section h2 {
+    text-align: center;
+    margin-top: 0;
+    margin: 0;
+    color: #eef1f2;
+    width: 100%; 
+    background-image:linear-gradient(rgb(36, 63, 56) ,rgb(89, 128, 131));
+  }
+
+  section h3{
+    text-align: center;
+  }
+
+  ul {
+    list-style: square;
+    margin-left: 20px;
+    
+  }
+  
+  ul li {
+    margin-bottom: 10px;
+  }
+  
+  /* Footer */
+  footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+  }
+  
+  footer p {
+    margin: 0;
+  }
+
+   input {
+    margin: 60px 0;
+    justify-content: right;
+  }
+
+  .hey{
+    display: flex;
+    flex-direction: column;
+  }
+  #contact-form{
+    display: flex;
+    flex-direction: column;
+    /* justify-items: center;*/
+    justify-content: center;
+    align-items: center; 
+    /* align-content: center;  */
+
+    
+  }
+  .btn{
+    align-items: center;
+    width: 300px; 
+    margin: 10px;
+    padding: 10px;
+    height:35px;
+  
+  }
+  .container {
+    margin: 0px;
+  }
